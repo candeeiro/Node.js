@@ -13,3 +13,13 @@ function fatorial(n) {
     return n === 0 || n === 1 ? 1 : n * fatorial(n - 1);
   }
 
+
+ /* 
+ Validar se é um numero dentro do intervalo ou Nao é Numero 
+ n=prompt()
+  if (n<0 ou n>100 ou isNaN(n)) {
+      msg erro
+  } else {
+      msg fatorial
+  }
+  */
